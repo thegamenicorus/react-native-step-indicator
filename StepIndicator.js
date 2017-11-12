@@ -409,7 +409,9 @@ StepIndicator.propTypes = {
   customStyles: PropTypes.object,
   direction: PropTypes.oneOf(["vertical", "horizontal"]),
   labels: PropTypes.array,
-  onPress: PropTypes.func
+  onPress: PropTypes.func,
+  labelStyles: PropTypes.object,
+  labelTextStyles: PropTypes.object
 };
 
 StepIndicator.defaultProps = {
